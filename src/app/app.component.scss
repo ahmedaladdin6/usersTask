@@ -1,0 +1,32 @@
+div.content {
+    width: 100%;
+
+    .tree {
+        width: 70%;
+        margin: 5% auto;
+
+        .lvl {
+            display: flex;
+            justify-items: flex-start;
+            justify-content: center;
+
+            .node {
+                background-color: rgb(180, 175, 175);
+                color: #000;
+                border: 1px solid black;
+                border-radius: 50%;
+                width: 100px;
+                height: 100px;
+                margin: 5px;
+                padding: 10px;
+                text-align: center;
+
+                span.code {
+                    font-weight: bolder;
+                    display: block;
+                }
+
+            }
+        }
+    }
+}
